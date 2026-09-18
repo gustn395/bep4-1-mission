@@ -42,7 +42,8 @@ public class PostFacade {
                 member.getCreateDate(),
                 member.getModifyDate(),
                 member.getUsername(),"",
-                member.getNickname()
+                member.getNickname(),
+                member.getActivityScore()
         );
 
 
