@@ -42,7 +42,7 @@ public class Payout extends BaseIdAndTime {
 
         items.add(payoutItem);
 
-        this.amount = amount;
+        this.amount += amount;
 
         return payoutItem;
     }
